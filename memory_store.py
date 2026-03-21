@@ -1,5 +1,6 @@
 import json
 import os
+import random
 
 FILE_PATH = "data/memories.json"
 
@@ -25,3 +26,15 @@ def memory_exists(date):
     memories = load_memories()
 
     return date in memories
+
+def get_all_memories():
+    return load_memories()
+
+def get_random_memory():
+    memories = load_memories()
+
+    if not memories:
+        return None
+
+    random_date = random.choice(list(memories.keys()))
+    return random_date, memories[random_date]["memory"]
