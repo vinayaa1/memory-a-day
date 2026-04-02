@@ -2,6 +2,7 @@
 Memory a Day is meant to be a journaling app that lets you keep track of memories for each day or the year.
 
 There are many different features:
+<<<<<<< HEAD
 daily memory tracking
 AI-powered reflection
 random memory generator
@@ -22,3 +23,10 @@ OPENAI_API_KEY=your_api_key_here
 5. Run the app:
 python app.py
 6. Open in your browser!
+=======
+- daily memory tracking
+- AI-powered reflection
+- random memory generator
+- view all memories
+- web interface!
+>>>>>>> 198fe17f9dc9f57041a172d523a29959afb57e60
