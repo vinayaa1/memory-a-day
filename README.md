@@ -22,3 +22,6 @@ OPENAI_API_KEY=your_api_key_here
 5. Run the app:
 python app.py
 6. Open in your browser!
+
+*sometimes this link for the deployed site doesn't work so please use locally
+https://memory-a-day.onrender.com/
