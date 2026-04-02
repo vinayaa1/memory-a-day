@@ -11,11 +11,9 @@ There are many different features:
 How to run locally:
 1. Clone the repository:
 git clone https://github.com/YOUR_USERNAME/memory-a-day.git
-
 cd memory-a-day
 2. Create a virtual environment:
 python -m venv venv
-
 venv\\Scripts\\activate
 3. Install dependencies:
 pip install -r requirements.txt
