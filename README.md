@@ -26,7 +26,7 @@ streak tracking
 
 ## live demo
 
-will add link sooooooooooon
+https://vinayaa1.github.io/memory-a-day/
 
 ## setup
 
@@ -42,7 +42,7 @@ open index.html
 
 # push to main branch
 
-git add . linkkkkkkkkkk here
+git add . https://vinayaa1.github.io/memory-a-day/
 git commit -m "deploy"
 git push origin main
 
