@@ -1,6 +1,38 @@
+# setup
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial scale=1.0"/>
+    <title>memory a day</title>
+    <link rel="stylesheet" href="style.css"/>
 </head>
+
+<body>
+
+<div class="container">
+  <header>
+    <h1>memory a day!!!</h1>
+    <p class="subtitle">log a memory each day :)</p>
+
+    <div class="stats">
+      <div>streak: <span id="streakCount">0</span></div>
+      <div>prompt: <span id="promptText"></span></div>
+    </div>
+  </header>
+
+# for the card of the day
+<div class="card">
+    <h2 id="todayDate"></h2>
+
+    <div class="mood-picker">
+        <button onclick="setMood('😄')">😄</button>
+        <button onclick="setMood('😊')">😊</button>
+        <button onclick="setMood('😐')">😐</button>
+        <button onclick="setMood('😔')">😔</button>
+        <button onclick="setMood('😡')">😡</button>      
+    </div>
+
+    
+
 </html>
