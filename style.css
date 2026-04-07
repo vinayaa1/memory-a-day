@@ -63,7 +63,7 @@ button:hover {
   opacity: 0.85;
 }
 
-/* pick a mood
+/* pick a mood */
 .mood-picker {
   display: flex;
   gap: 8px;
@@ -77,7 +77,7 @@ button:hover {
   border-radius: 10px;
 }
 
-/* calendar
+/* calendar */
 #calendar {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
@@ -98,7 +98,7 @@ button:hover {
   background: #e9f5ff;
 }
 
-/* memory list
+/* memory list */
 .memory-item {
   border-bottom: 1px solid #eee;
   padding: 8px 0;
